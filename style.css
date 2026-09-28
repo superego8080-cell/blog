@@ -1,0 +1,373 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(
+        135deg,
+        #fff4dc,
+        #ffe4d6,
+        #e8e1ff,
+        #fff7c2
+    );
+    color: #2b2b2b;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background: linear-gradient(
+        135deg,
+        #172b46,
+        #435c78,
+        #d9796c,
+        #f2b84b
+    );
+
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 1.3rem;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav {
+    background-color: #24364b;
+    text-align: center;
+    padding: 15px;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+    margin: 0 20px;
+    padding: 8px 12px;
+
+    font-weight: bold;
+
+    border-radius: 20px;
+
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #f2b84b;
+    color: #24364b;
+}
+
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+
+.container {
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+article {
+    background-color: rgba(255, 255, 255, 0.95);
+
+    padding: 45px;
+
+    border-radius: 25px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+/* =========================
+   BLOG IMAGE
+========================= */
+
+.hero-image {
+    width: 100%;
+    max-height: 850px;
+
+    object-fit: cover;
+
+    border-radius: 20px;
+
+    margin-bottom: 35px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+    border: 8px solid #fff4dc;
+}
+
+
+/* =========================
+   BLOG TITLE
+========================= */
+
+.blog-title {
+    font-size: 2.8rem;
+
+    color: #172b46;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+
+    color: #b95d54;
+
+    font-size: 1.2rem;
+
+    font-weight: bold;
+
+    margin-bottom: 35px;
+}
+
+
+/* =========================
+   TEXT
+========================= */
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+
+/* =========================
+   SECTION TITLES
+========================= */
+
+h2 {
+    color: #172b46;
+
+    margin-top: 45px;
+    margin-bottom: 20px;
+
+    padding: 15px 20px;
+
+    border-radius: 12px;
+
+    background: linear-gradient(
+        90deg,
+        #ffe08a,
+        #ffd1c7
+    );
+}
+
+
+/* =========================
+   EXAMPLES
+========================= */
+
+.example {
+    background-color: #f5edff;
+
+    border-left: 6px solid #8e72b5;
+
+    padding: 25px;
+
+    margin: 25px 0;
+
+    border-radius: 15px;
+}
+
+
+/* =========================
+   TIPS
+========================= */
+
+.tip {
+    background: linear-gradient(
+        135deg,
+        #e2f4e8,
+        #d8f0ff
+    );
+
+    border-left: 6px solid #3e8b6b;
+
+    padding: 20px;
+
+    margin: 25px 0;
+
+    border-radius: 15px;
+}
+
+
+/* =========================
+   QUESTIONS
+========================= */
+
+.questions {
+    background: linear-gradient(
+        135deg,
+        #172b46,
+        #3c506b
+    );
+
+    color: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    margin: 30px 0;
+}
+
+.questions h2 {
+    color: #172b46;
+}
+
+.questions ul {
+    padding-left: 25px;
+}
+
+.questions li {
+    margin: 12px 0;
+    font-size: 1.1rem;
+}
+
+
+/* =========================
+   QUOTE
+========================= */
+
+.quote {
+    background: linear-gradient(
+        135deg,
+        #ffe08a,
+        #f7b5a8
+    );
+
+    padding: 40px;
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    margin: 40px 0;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.quote p {
+    font-size: 1.8rem;
+
+    font-weight: bold;
+
+    color: #172b46;
+}
+
+
+/* =========================
+   REMEMBER BOX
+========================= */
+
+.remember {
+    background-color: #e8e1ff;
+
+    border: 3px dashed #8e72b5;
+
+    padding: 30px;
+
+    text-align: center;
+
+    border-radius: 20px;
+
+    margin-top: 30px;
+}
+
+.remember h3 {
+    color: #6c4d92;
+
+    font-size: 1.8rem;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #172b46;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 35px 20px;
+
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 50px 20px;
+    }
+
+    header h1 {
+        font-size: 2.3rem;
+    }
+
+    .blog-title {
+        font-size: 2rem;
+    }
+
+    article {
+        padding: 25px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .quote p {
+        font-size: 1.4rem;
+    }
+}
