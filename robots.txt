@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://filblogroup1.netlify.app/
+Sitemap: https://filblogroup1.netlify.app/sitemap.xml
